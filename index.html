@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lunique Jam — Style with Values | Streetwear premium né à Dakar</title>
+  <meta name="description" content="Lunique Jam. Streetwear premium né à Dakar, taillé pour le monde. Style urbain, énergie de la jeunesse, élégance intérieure. Faith is the flex." />
+  <meta name="theme-color" content="#0B0B0A" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="canonical" href="https://luniquejam.com/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lunique Jam — Style with Values" />
+  <meta property="og:description" content="Streetwear premium né à Dakar. L'élégance commence à l'intérieur." />
+  <meta property="og:url" content="https://luniquejam.com/" />
+  <meta property="og:site_name" content="Lunique Jam" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lunique Jam — Style with Values" />
+  <meta name="twitter:description" content="Streetwear premium né à Dakar. Faith is the flex." />
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body data-theme="dark">
+
+  <!-- ============ SVG LIBRARY ============ -->
+  <svg class="svg-defs" aria-hidden="true" focusable="false">
+    <defs>
+      <!-- Signature dart / arrow -->
+      <symbol id="lj-arrow" viewBox="0 0 680 270">
+        <path d="M679 2 L462 100 L8 119 L8 143 L462 158 L679 262 L586 166 L462 146 L372 131 L462 116 L586 96 Z" />
+      </symbol>
+
+      <!-- Garment silhouettes (CSS-only product art) -->
+      <symbol id="g-tee" viewBox="0 0 200 220">
+        <path d="M62 34 L18 60 L4 98 L48 114 L56 90 L54 200 Q54 206 60 206 L140 206 Q146 206 146 200 L144 90 L152 114 L196 98 L182 60 L138 34 C132 52 118 58 100 58 C82 58 68 52 62 34 Z" />
+        <path d="M62 34 C68 52 82 58 100 58 C118 58 132 52 138 34 L130 30 C126 44 114 50 100 50 C86 50 74 44 70 30 Z" fill="rgba(0,0,0,.18)" />
+        <path d="M56 90 L54 200 Q54 206 60 206 L66 206 L66 96 Z" fill="rgba(0,0,0,.08)" />
+      </symbol>
+
+      <symbol id="g-hoodie" viewBox="0 0 200 236">
+        <path d="M64 44 C58 16 82 4 100 4 C118 4 142 16 136 44 C126 32 74 32 64 44 Z" />
+        <path d="M64 44 L20 70 L6 110 L48 126 L56 100 L54 212 Q54 218 60 218 L140 218 Q146 218 146 212 L144 100 L152 126 L194 110 L180 70 L136 44 C128 60 112 66 100 66 C88 66 72 60 64 44 Z" />
+        <path d="M64 44 C72 60 88 66 100 66 C112 66 128 60 136 44 L128 40 C122 52 110 58 100 58 C90 58 78 52 72 40 Z" fill="rgba(0,0,0,.22)" />
+        <path d="M72 156 L128 156 L134 202 L66 202 Z" fill="rgba(0,0,0,.14)" />
+        <rect x="90" y="62" width="4" height="26" rx="2" fill="rgba(0,0,0,.28)" />
+        <rect x="106" y="62" width="4" height="26" rx="2" fill="rgba(0,0,0,.28)" />
+      </symbol>
+
+      <symbol id="g-cap" viewBox="0 0 200 140">
+        <path d="M34 86 C34 36 66 14 100 14 C134 14 166 36 166 86 Z" />
+        <path d="M100 14 C100 14 96 50 96 86 L104 86 C104 50 100 14 100 14 Z" fill="rgba(0,0,0,.18)" />
+        <path d="M30 86 Q100 120 170 86 L170 98 Q100 134 30 98 Z" />
+        <path d="M30 86 Q100 120 170 86 L170 90 Q100 124 30 90 Z" fill="rgba(0,0,0,.2)" />
+      </symbol>
+
+      <symbol id="g-pants" viewBox="0 0 200 240">
+        <path d="M56 12 L144 12 L152 62 L150 228 L112 228 L104 98 L96 228 L58 228 L48 62 Z" />
+        <rect x="56" y="12" width="88" height="14" fill="rgba(0,0,0,.18)" />
+        <path d="M58 120 L86 120 L84 156 L60 156 Z" fill="rgba(0,0,0,.14)" />
+        <path d="M114 120 L142 120 L140 156 L116 156 Z" fill="rgba(0,0,0,.14)" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <svg class="preloader__arrow"><use href="#lj-arrow" /></svg>
+      <p class="preloader__word">LUNIQUE&nbsp;JAM</p>
+      <span class="preloader__count" id="preCount">00</span>
+    </div>
+  </div>
+
+  <!-- ============ CURSOR ============ -->
+  <div class="cursor is-hidden" id="cursor" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#hero" aria-label="Lunique Jam — retour en haut">
+      <svg class="nav__arrow"><use href="#lj-arrow" /></svg>
+      <span>LUNIQUE&nbsp;JAM</span>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#manifesto">Manifesto</a>
+      <a href="#collection">Collection</a>
+      <a href="#lookbook">Lookbook</a>
+      <a href="#values">Valeurs</a>
+    </nav>
+    <a class="nav__cta" href="#newsletter">Drop 001 <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__meta">
+        <span>Dakar-born</span>
+        <span>Faith-built</span>
+        <span>Est. MMXXIV</span>
+      </div>
+
+      <h1 class="hero__title" aria-label="Lunique Jam">
+        <span class="hero__line"><span class="hero__word" data-split>LUNIQUE</span></span>
+        <span class="hero__line hero__line--2">
+          <span class="hero__word hero__word--italic" data-split>JAM</span>
+          <svg class="hero__emblem" aria-hidden="true"><use href="#lj-arrow" /></svg>
+        </span>
+      </h1>
+
+      <div class="hero__bottom">
+        <p class="hero__slogan">
+          <em>Style</em> with <em class="hero__accent">Values</em><span class="hero__dot">.</span>
+        </p>
+        <p class="hero__intro">
+          Streetwear premium né à Dakar, taillé pour une jeunesse
+          qui avance tête haute et cœur droit.
+        </p>
+        <a class="btn btn--fill" href="#collection">
+          Découvrir le drop
+          <svg class="btn__arrow"><use href="#lj-arrow" /></svg>
+        </a>
+      </div>
+
+      <div class="hero__scrollhint" aria-hidden="true">
+        <span>Scroll</span>
+        <i></i>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Faith is the Flex</span><svg><use href="#lj-arrow"/></svg>
+        <span>Dressed with Purpose</span><svg><use href="#lj-arrow"/></svg>
+        <span>Clean Fits, Clean Heart</span><svg><use href="#lj-arrow"/></svg>
+        <span>Wear Your Principles</span><svg><use href="#lj-arrow"/></svg>
+        <span>Faith is the Flex</span><svg><use href="#lj-arrow"/></svg>
+        <span>Dressed with Purpose</span><svg><use href="#lj-arrow"/></svg>
+        <span>Clean Fits, Clean Heart</span><svg><use href="#lj-arrow"/></svg>
+        <span>Wear Your Principles</span><svg><use href="#lj-arrow"/></svg>
+      </div>
+    </div>
+
+    <!-- ============ MANIFESTO ============ -->
+    <section class="manifesto section--dark" id="manifesto">
+      <div class="section-head">
+        <span class="section-head__index">01</span>
+        <span class="section-head__label">Manifesto</span>
+        <span class="section-head__rule" aria-hidden="true"></span>
+      </div>
+
+      <p class="manifesto__text" data-split-words>
+        Lunique Jam n'est pas une tendance. C'est une conviction qui se porte.
+        Née à Dakar, taillée pour le monde — pour une génération qui croit
+        que la vraie élégance commence à l'intérieur.
+        Le reste n'est que du tissu.
+      </p>
+
+      <div class="manifesto__tags" aria-hidden="true">
+        <span class="tag tag--a">Rooted, not trendy</span>
+        <span class="tag tag--b">Heaven-minded, street-ready</span>
+        <span class="tag tag--c">Porte ta lumière</span>
+      </div>
+
+      <svg class="manifesto__watermark" aria-hidden="true"><use href="#lj-arrow" /></svg>
+    </section>
+
+    <!-- ============ COLLECTION ============ -->
+    <section class="collection" id="collection">
+      <div class="section-head">
+        <span class="section-head__index">02</span>
+        <span class="section-head__label">Collection</span>
+        <span class="section-head__rule" aria-hidden="true"></span>
+        <span class="section-head__note">Drop 001 — Genesis</span>
+      </div>
+
+      <h2 class="collection__title">
+        <span data-split>GENESIS</span>
+        <span class="collection__title-sub">Huit pièces. Zéro compromis.</span>
+      </h2>
+
+      <ul class="products">
+        <li class="product product--p1" style="--garm:#101010; --mark:#0E5A41;">
+          <a href="#newsletter" class="product__link">
+            <figure class="product__art">
+              <svg class="product__garment"><use href="#g-tee" /></svg>
+              <svg class="product__mark"><use href="#lj-arrow" /></svg>
+              <span class="product__veil" aria-hidden="true">Voir la pièce</span>
+            </figure>
+            <div class="product__row">
+              <h3>Genesis Tee</h3>
+              <span class="product__price">18 000 F</span>
+            </div>
+            <p class="product__color">Noir éclipse — coton lourd 240 g</p>
+          </a>
+        </li>
+
+        <li class="product product--p2" style="--garm:#0E5A41; --mark:#F7F4EC;">
+          <a href="#newsletter" class="product__link">
+            <figure class="product__art">
+              <svg class="product__garment"><use href="#g-hoodie" /></svg>
+              <svg class="product__mark product__mark--hood"><use href="#lj-arrow" /></svg>
+              <span class="product__veil" aria-hidden="true">Voir la pièce</span>
+            </figure>
+            <div class="product__row">
+              <h3>Covenant Hoodie</h3>
+              <span class="product__price">35 000 F</span>
+            </div>
+            <p class="product__color">Émeraude profond — molleton brossé</p>
+          </a>
+        </li>
+
+        <li class="product product--p3" style="--garm:#F2EEE3; --mark:#0B0B0A;">
+          <a href="#newsletter" class="product__link">
+            <figure class="product__art">
+              <svg class="product__garment"><use href="#g-tee" /></svg>
+              <svg class="product__mark"><use href="#lj-arrow" /></svg>
+              <span class="product__veil" aria-hidden="true">Voir la pièce</span>
+            </figure>
+            <div class="product__row">
+              <h3>Still Waters Tee</h3>
+              <span class="product__price">18 000 F</span>
+            </div>
+            <p class="product__color">Blanc os — sérigraphie ton sur ton</p>
+          </a>
+        </li>
+
+        <li class="product product--p4" style="--garm:#E4D9BF; --mark:#0B0B0A;">
+          <a href="#newsletter" class="product__link">
+            <figure class="product__art">
+              <svg class="product__garment"><use href="#g-tee" /></svg>
+              <svg class="product__mark"><use href="#lj-arrow" /></svg>
+              <span class="product__veil" aria-hidden="true">Voir la pièce</span>
+            </figure>
+            <div class="product__row">
+              <h3>Higher Calling Crew</h3>
+              <span class="product__price">28 000 F</span>
+            </div>
+            <p class="product__color">Crème sable — coupe boxy</p>
+          </a>
+        </li>
+
+        <li class="product product--p5" style="--garm:#141412; --mark:#C9A25E;">
+          <a href="#newsletter" class="product__link">
+            <figure class="product__art">
+              <svg class="product__garment product__garment--cap"><use href="#g-cap" /></svg>
+              <svg class="product__mark product__mark--cap"><use href="#lj-arrow" /></svg>
+              <span class="product__veil" aria-hidden="true">Voir la pièce</span>
+            </figure>
+            <div class="product__row">
+              <h3>Anointed Cap</h3>
+              <span class="product__price">12 000 F</span>
+            </div>
+            <p class="product__color">Noir / fil or — broderie 3D</p>
+          </a>
+        </li>
+
+        <li class="product product--p6" style="--garm:#26352C; --mark:#F7F4EC;">
+          <a href="#newsletter" class="product__link">
+            <figure class="product__art">
+              <svg class="product__garment"><use href="#g-pants" /></svg>
+              <svg class="product__mark product__mark--pants"><use href="#lj-arrow" /></svg>
+              <span class="product__veil" aria-hidden="true">Voir la pièce</span>
+            </figure>
+            <div class="product__row">
+              <h3>Proverbs Cargo</h3>
+              <span class="product__price">32 000 F</span>
+            </div>
+            <p class="product__color">Vert cyprès — ripstop technique</p>
+          </a>
+        </li>
+
+        <li class="product product--p7" style="--garm:#0F6B4C; --mark:#F7F4EC;">
+          <a href="#newsletter" class="product__link">
+            <figure class="product__art">
+              <svg class="product__garment"><use href="#g-tee" /></svg>
+              <svg class="product__mark"><use href="#lj-arrow" /></svg>
+              <span class="product__veil" aria-hidden="true">Voir la pièce</span>
+            </figure>
+            <div class="product__row">
+              <h3>Grace Oversized Tee</h3>
+              <span class="product__price">20 000 F</span>
+            </div>
+            <p class="product__color">Émeraude — tombé oversize</p>
+          </a>
+        </li>
+
+        <li class="product product--p8" style="--garm:#EFEAE0; --mark:#0B0B0A;">
+          <a href="#newsletter" class="product__link">
+            <figure class="product__art">
+              <svg class="product__garment"><use href="#g-hoodie" /></svg>
+              <svg class="product__mark product__mark--hood"><use href="#lj-arrow" /></svg>
+              <span class="product__veil" aria-hidden="true">Voir la pièce</span>
+            </figure>
+            <div class="product__row">
+              <h3>Firstlight Hoodie</h3>
+              <span class="product__price">35 000 F</span>
+            </div>
+            <p class="product__color">Blanc cassé — intérieur gratté</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ LOOKBOOK ============ -->
+    <section class="lookbook section--dark" id="lookbook">
+      <div class="section-head">
+        <span class="section-head__index">03</span>
+        <span class="section-head__label">Lookbook</span>
+        <span class="section-head__rule" aria-hidden="true"></span>
+        <span class="section-head__note">Éditorial — Saison zéro</span>
+      </div>
+
+      <span class="lookbook__vertical" aria-hidden="true">LOOKBOOK</span>
+
+      <div class="lookbook__grid">
+        <figure class="look look--1">
+          <div class="look__art look__art--dawn" data-parallax>
+            <svg class="look__ghost"><use href="#lj-arrow" /></svg>
+          </div>
+          <figcaption>
+            <span class="look__idx">Look 01</span>
+            <span class="look__name">First Light</span>
+            <span class="look__desc">L'aube sur la corniche. Le silence avant la ville.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="look look--2">
+          <div class="look__art look__art--concrete" data-parallax>
+            <svg class="look__ghost"><use href="#lj-arrow" /></svg>
+          </div>
+          <figcaption>
+            <span class="look__idx">Look 02</span>
+            <span class="look__name">Concrete Psalms</span>
+            <span class="look__desc">Le béton comme page blanche. La rue comme écriture.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="look look--3">
+          <div class="look__art look__art--emerald" data-parallax>
+            <svg class="look__ghost"><use href="#lj-arrow" /></svg>
+          </div>
+          <figcaption>
+            <span class="look__idx">Look 03</span>
+            <span class="look__name">Emerald Hour</span>
+            <span class="look__desc">Cette heure où la lumière choisit son camp.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="look look--4">
+          <div class="look__art look__art--gold" data-parallax>
+            <svg class="look__ghost"><use href="#lj-arrow" /></svg>
+          </div>
+          <figcaption>
+            <span class="look__idx">Look 04</span>
+            <span class="look__name">Inner Gold</span>
+            <span class="look__desc">Ce qui brille en toi ne se vend pas. Il se porte.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ VALUES ============ -->
+    <section class="values" id="values">
+      <div class="section-head">
+        <span class="section-head__index">04</span>
+        <span class="section-head__label">Valeurs</span>
+        <span class="section-head__rule" aria-hidden="true"></span>
+        <span class="section-head__note">Ce qu'on porte vraiment</span>
+      </div>
+
+      <ul class="values__list">
+        <li class="value">
+          <span class="value__idx">/01</span>
+          <h3 class="value__name">Foi</h3>
+          <p class="value__desc">Notre fondation. Une confiance intérieure qui tient debout quand tout bouge. La force tranquille avant la tendance.</p>
+          <svg class="value__arrow" aria-hidden="true"><use href="#lj-arrow" /></svg>
+        </li>
+        <li class="value">
+          <span class="value__idx">/02</span>
+          <h3 class="value__name">Excellence</h3>
+          <p class="value__desc">Chaque couture est une conviction. On ne fait pas des vêtements corrects — on fait des pièces qui durent et qui parlent.</p>
+          <svg class="value__arrow" aria-hidden="true"><use href="#lj-arrow" /></svg>
+        </li>
+        <li class="value">
+          <span class="value__idx">/03</span>
+          <h3 class="value__name">Jeunesse</h3>
+          <p class="value__desc">L'énergie d'une génération qui refuse de choisir entre le style et le sens. Dakar, et partout où elle avance.</p>
+          <svg class="value__arrow" aria-hidden="true"><use href="#lj-arrow" /></svg>
+        </li>
+        <li class="value">
+          <span class="value__idx">/04</span>
+          <h3 class="value__name">Intégrité</h3>
+          <p class="value__desc">Clean fits, clean heart. Ce qu'on montre dehors reflète ce qu'on cultive dedans. Pas de raccourcis, pas de façade.</p>
+          <svg class="value__arrow" aria-hidden="true"><use href="#lj-arrow" /></svg>
+        </li>
+        <li class="value">
+          <span class="value__idx">/05</span>
+          <h3 class="value__name">Communauté</h3>
+          <p class="value__desc">On monte ensemble ou pas du tout. Chaque drop nourrit des projets pour la jeunesse de chez nous.</p>
+          <svg class="value__arrow" aria-hidden="true"><use href="#lj-arrow" /></svg>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ INSPIRATION ============ -->
+    <section class="quotes section--dark" id="inspiration">
+      <div class="section-head">
+        <span class="section-head__index">05</span>
+        <span class="section-head__label">Inspiration</span>
+        <span class="section-head__rule" aria-hidden="true"></span>
+      </div>
+
+      <blockquote class="quote">
+        <p data-split>Faith is the flex.</p>
+      </blockquote>
+      <blockquote class="quote quote--accent">
+        <p data-split>L'élégance commence à l'intérieur.</p>
+      </blockquote>
+      <blockquote class="quote">
+        <p data-split>Walk by faith. Dress accordingly.</p>
+      </blockquote>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="newsletter" id="newsletter">
+      <span class="newsletter__kicker">Le Cercle — accès prioritaire</span>
+      <h2 class="newsletter__title"><span data-split>REJOINS LE</span><br /><span class="newsletter__accent" data-split>MOUVEMENT</span></h2>
+      <p class="newsletter__sub">Les drops partent vite. Le Cercle est prévenu en premier. Zéro spam — que du purpose.</p>
+
+      <form class="newsletter__form" id="njForm" novalidate>
+        <label class="sr-only" for="njEmail">Adresse e-mail</label>
+        <input type="email" id="njEmail" name="email" placeholder="ton@email.com" autocomplete="email" required />
+        <button type="submit" class="btn btn--fill">
+          Entrer dans le Cercle
+          <svg class="btn__arrow"><use href="#lj-arrow" /></svg>
+        </button>
+        <p class="newsletter__ok" id="njOk" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer section--dark">
+    <div class="footer__grid">
+      <div class="footer__col footer__col--brand">
+        <svg class="footer__arrow" aria-hidden="true"><use href="#lj-arrow" /></svg>
+        <p>Streetwear premium.<br />Né à Dakar, taillé pour le monde.<br /><em>Style with Values.</em></p>
+      </div>
+      <nav class="footer__col" aria-label="Plan du site">
+        <span class="footer__head">Explorer</span>
+        <a href="#manifesto">Manifesto</a>
+        <a href="#collection">Collection</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#values">Valeurs</a>
+      </nav>
+      <nav class="footer__col" aria-label="Réseaux sociaux">
+        <span class="footer__head">Suivre</span>
+        <a href="#" rel="noopener">Instagram <i data-lucide="arrow-up-right"></i></a>
+        <a href="#" rel="noopener">TikTok <i data-lucide="arrow-up-right"></i></a>
+        <a href="#" rel="noopener">YouTube <i data-lucide="arrow-up-right"></i></a>
+      </nav>
+      <div class="footer__col">
+        <span class="footer__head">Contact</span>
+        <a href="mailto:hello@luniquejam.com">hello@luniquejam.com</a>
+        <span class="footer__muted">Dakar, Sénégal</span>
+      </div>
+    </div>
+
+    <div class="footer__mega" aria-hidden="true">
+      <span>LUNIQUE&nbsp;JAM</span>
+    </div>
+
+    <div class="footer__legal">
+      <span>© MMXXVI Lunique Jam. Tous droits réservés.</span>
+      <span>Clean fits, clean heart.</span>
+      <a href="#hero">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
