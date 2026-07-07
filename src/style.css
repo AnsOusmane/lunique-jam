@@ -8,6 +8,7 @@
   /* Palette */
   --ink: #0B0B0A;
   --ink-soft: #161614;
+  --bg: #FFFFFF;          /* fond général du site */
   --bone: #F7F4EC;
   --bone-dim: #EDE8DC;
   --emerald: #0E5A41;
@@ -41,7 +42,7 @@ body {
   font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.6;
-  background: var(--bone);
+  background: var(--bg);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
   overflow-x: clip;
@@ -294,7 +295,7 @@ html:not(.js) .preloader { display: none; }
   background:
     radial-gradient(90% 60% at 85% 8%, rgba(201, 162, 94, 0.10), transparent 60%),
     radial-gradient(70% 50% at 8% 95%, rgba(14, 90, 65, 0.10), transparent 65%),
-    var(--bone);
+    var(--bg);
   overflow: clip;
 }
 
@@ -489,7 +490,7 @@ html:not(.js) .preloader { display: none; }
    ============================================================ */
 .collection {
   padding: var(--section-gap) 0 calc(var(--section-gap) + clamp(60px, 12vw, 200px));
-  background: var(--bone);
+  background: var(--bg);
 }
 .collection__title {
   padding: 0 var(--pad);
@@ -769,7 +770,7 @@ html:not(.js) .preloader { display: none; }
    ============================================================ */
 .values {
   padding: var(--section-gap) 0;
-  background: var(--bone);
+  background: var(--bg);
 }
 .values__list {
   border-top: 1px solid rgba(11, 11, 10, 0.16);
