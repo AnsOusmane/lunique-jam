@@ -150,7 +150,7 @@ html:not(.js) .preloader { display: none; }
   margin: 0 auto 22px;
 }
 .preloader__word {
-  font-family: var(--font-display);
+  font-family: var(--font-logo);
   font-weight: 800;
   font-style: italic;
   font-size: clamp(20px, 3vw, 30px);
