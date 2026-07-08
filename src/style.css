@@ -1048,6 +1048,7 @@ html.js [data-split-words] .word { display: inline-block; white-space: nowrap; }
 
   .hero__bottom { grid-template-columns: 1fr; align-items: start; }
   .hero__intro { max-width: 52ch; }
+  .hero__line--2 { gap: 28px; }
   .hero__scrollhint { display: none; }
   .hero__meta span:nth-child(2) { display: none; }
 
