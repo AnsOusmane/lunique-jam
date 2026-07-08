@@ -320,7 +320,7 @@ html:not(.js) .preloader { display: none; }
 }
 
 .hero__title {
-  font-family: var(--font-display);
+  font-family: var(--font-logo);
   font-weight: 800;
   font-size: clamp(42px, 11.5vw, 168px);
   line-height: 0.88;
