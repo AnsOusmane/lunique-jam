@@ -897,7 +897,7 @@ html:not(.js) .preloader { display: none; }
   margin-top: 22px;
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(32px, 8.8vw, 138px);
+  font-size: clamp(28px, 7.4vw, 120px);
   line-height: 0.92;
   letter-spacing: -0.03em;
   text-transform: uppercase;
