@@ -1078,7 +1078,7 @@ html.js [data-split-words] .word { display: inline-block; white-space: nowrap; }
   .nav__cta { padding: 8px 14px; font-size: 10px; letter-spacing: 0.12em; white-space: nowrap; }
   .nav__brand { gap: 8px; font-size: 13px; }
   .nav__brand .nav__arrow { width: 28px; }
-  .hero__title { font-size: clamp(32px, 11.5vw, 52px); }
+  .hero__title { font-size: clamp(50px, 17vw, 84px); }
   .hero__slogan { font-size: 26px; }
   .quote p { font-size: clamp(20px, 7vw, 30px); }
   .value { grid-template-columns: 40px minmax(0, 1fr); }
