@@ -789,7 +789,7 @@ html:not(.js) .preloader { display: none; }
 .value {
   position: relative;
   display: grid;
-  grid-template-columns: 80px minmax(0, 1.5fr) minmax(0, 1.4fr) 90px;
+  grid-template-columns: 80px minmax(0, 1.9fr) minmax(0, 1.1fr) 90px;
   align-items: center;
   gap: clamp(16px, 3vw, 48px);
   padding: clamp(26px, 3.6vw, 46px) clamp(8px, 1.5vw, 24px);
