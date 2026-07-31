@@ -145,7 +145,7 @@ html:not(.js) .preloader { display: none; }
 .preloader__arrow {
   width: clamp(90px, 12vw, 150px);
   height: auto;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   fill: var(--emerald-bright);
   margin: 0 auto 22px;
 }
@@ -218,7 +218,7 @@ html:not(.js) .preloader { display: none; }
 }
 .nav__arrow {
   width: 40px;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   fill: currentColor;
 }
 
@@ -285,7 +285,7 @@ html:not(.js) .preloader { display: none; }
 }
 .btn__arrow {
   width: 26px;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   fill: currentColor;
   transform: scaleX(-1);
   transition: transform 0.4s var(--ease-expo);
@@ -344,7 +344,7 @@ html:not(.js) .preloader { display: none; }
   flex: 1;
   min-width: 0;
   max-width: clamp(160px, 30vw, 520px);
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   height: auto;
   fill: var(--emerald);
 }
@@ -433,7 +433,7 @@ html:not(.js) .preloader { display: none; }
 .marquee__track svg {
   width: 54px;
   flex: none;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   fill: var(--gold);
 }
 @keyframes marquee {
@@ -488,7 +488,7 @@ html:not(.js) .preloader { display: none; }
   top: 50%;
   translate: 0 -50%;
   width: 58vw;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   fill: none;
   stroke: var(--emerald);
   stroke-width: 2;
@@ -585,7 +585,7 @@ html:not(.js) .preloader { display: none; }
   left: 50%;
   top: 39%;
   width: 13%;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   translate: -50% 0;
   fill: var(--mark);
   transition: transform 0.7s var(--ease-expo);
@@ -743,7 +743,7 @@ html:not(.js) .preloader { display: none; }
   top: 50%;
   translate: -50% -50%;
   width: 68%;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   fill: rgba(247, 244, 236, 0.07);
 }
 
@@ -832,7 +832,7 @@ html:not(.js) .preloader { display: none; }
 .value__arrow {
   width: 100%;
   max-width: 80px;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   fill: var(--ink);
   transform: scaleX(-1);
   justify-self: end;
@@ -968,7 +968,7 @@ html:not(.js) .preloader { display: none; }
 .footer__col p em { color: var(--emerald-bright); font-style: italic; }
 .footer__arrow {
   width: 92px;
-  aspect-ratio: 680 / 270;
+  aspect-ratio: 200 / 74.88;
   fill: var(--emerald-bright);
   margin-bottom: 14px;
 }
