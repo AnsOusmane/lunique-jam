@@ -151,5 +151,27 @@
     <span>Clean fits, clean heart.</span>
   </footer>
 
+  <script>
+    (function () {
+      var VISITOR_KEY = 'lj_visitor_id';
+      var id;
+      try {
+        id = localStorage.getItem(VISITOR_KEY);
+        if (!id) {
+          id = crypto.randomUUID();
+          localStorage.setItem(VISITOR_KEY, id);
+        }
+      } catch (e) {
+        id = 'anon';
+      }
+      // Site vitrine statique (GitHub Pages, pas de backend) : on envoie le ping
+      // à l'API de la boutique, préfixé "/vitrine" pour le distinguer dans les stats.
+      fetch('https://shop.luniquejam.com/api/track', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ path: '/vitrine' + location.pathname, visitorId: id }),
+      }).catch(function () {});
+    })();
+  </script>
 </body>
 </html>
